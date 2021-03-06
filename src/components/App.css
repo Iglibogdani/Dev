@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.active-link {
+  border: none;
+  background: none;
+  margin: none;
+  padding: none;
+  outline: none;
+  color: white;
+}
+
+.active-link:hover {
+  color: aquamarine;
+}
+
+.plane {
+  width: 600px;
+  max-width: 800px;
+  height: 400px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.welcome {
+  font-family: "Brush Script MT", cursive;
+  font-size: 80px;
+  color: rgb(71, 148, 148);
+}
+
+.home-content {
+  margin-top: 140px;
+  margin-right: 150px;
+  position: absolute;
+  left: 800px;
+}
+
+.home-text {
+  margin-top: 90px;
+  font-size: 25px;
+  line-height: 1;
+  font-family: cursive;
+}
+.button {
+  margin-top: 60px;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border: none;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(71, 148, 148);
+  outline: none;
+  padding-right: 40px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
+
+.about {
+  margin: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+  line-height: 1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.input-image {
+  width: 80%;
+  color: #333;
+  border: none;
+  margin: 0;
+  background: none;
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.input-and-icon {
+  width: 70%;
+  color: #333;
+  border: 2px solid #666;
+  border-radius: 50px;
+  background: none;
+  padding: 5px;
+  font-size: 22px;
+  outline: none;
+  margin: auto;
+  width: 50%;
+}
+
+.not-found {
+  color: rgb(71, 148, 148);
+  font-size: 50px;
+  margin-top: 150px;
+  font-family: cursive;
+  line-height: 1;
+}
+
+.description {
+  font-family: cursive;
+  font-size: 20px;
+  
+}
+.displayed-images {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 10px;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.displayed-images img{
+ width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-bottom: 3px black solid;
+}
+
